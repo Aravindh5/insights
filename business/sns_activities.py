@@ -5,7 +5,7 @@ class SnsActivities(object):
     @staticmethod
     def create_new_user(user_token, email_id, google_firebase_arn):
 
-        created_arn = ""
+        created_arn = "arn:arn::123232"
 
         return created_arn
 

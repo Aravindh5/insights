@@ -66,7 +66,8 @@ class UsersSnsTable(models.Model):
 
 class Languagetable(models.Model):
 
-    s_no = models.AutoField(db_column='S.No', primary_key=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
+    s_no = models.AutoField(db_column='S.No', primary_key=True)  # Field name made lowercase. Field renamed
+    #                                                              to remove unsuitable characters.
     messageid = models.IntegerField(db_column='MessageID')  # Field name made lowercase.
     messageen = models.TextField(db_column='MessageEN')  # Field name made lowercase.
     messagehi = models.TextField(db_column='MessageHI')  # Field name made lowercase.
